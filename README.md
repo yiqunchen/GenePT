@@ -33,5 +33,5 @@ Chen YT,  Zou J. (2023+) GenePT: A Simple But Hard-to-Beat Foundation Model for 
 
 
 ### Breakdown of analysis files:
-![](https://github.com/yiqunchen/SpikeInference/blob/main/man/figures/combined_plot_exp_7_cell_29_paper_example.png)
+![](./figs/Presentation3.png)
 
