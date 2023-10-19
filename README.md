@@ -29,7 +29,7 @@ Please file an [issue](https://github.com/yiqunchen/GenePT/issues) if you have a
 
 If you use `GenePT` for your analysis, please cite our manuscript:
 
-Chen YT,  Zou J. (2023+) GenePT: A Simple But Hard-to-Beat Foundation Model for Genes and Cells Built From ChatGPT bioRxiv preprint.
+Chen YT,  Zou J. (2023+) GenePT: A Simple But Hard-to-Beat Foundation Model for Genes and Cells Built From ChatGPT. bioRxiv preprint.
 
 
 ### Breakdown of analysis files:
