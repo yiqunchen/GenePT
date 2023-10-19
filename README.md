@@ -38,6 +38,15 @@ Chen YT,  Zou J. (2023+) GenePT: A Simple But Hard-to-Beat Foundation Model for 
 3. [gene_level_task_table_1.ipynb](./gene_level_task_table_1.ipynb) reproduces the gene level tasks for GenePT embeddings in Table 1 of the paper.
 4. [gene_level_task_figure_2.ipynb](./gene_level_task_figure_2.ipynb) provides the necessary data and output for the gene level tasks described in Figure 2 of our paper.
 
+### Datasets used in GenePT
+1. For the gene-level tasks, we make use of the following datasets:
+	- Geneformer provides the datasets for gene-level tasks reported in Table 1 (https://huggingface.co/datasets/ctheodoris/Genecorpus-30M/tree/main/example_input_files/gene_classification)
+	- Gene-gene interaction network datasets were collected as part of the Gene2vec paper, available at https://github.com/jingcheng-du/Gene2vec/tree/master/predictionData.
+2. For the cell-level tasks, we make use of the following datasets:
+	- hPancreas, Myeloid, and Multiple Sclerosis 
+	- Cardiomyocyte data
+	- Aorta dataset
+
 
 ![](./figs/Presentation3.png)
 
