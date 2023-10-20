@@ -37,6 +37,7 @@ Chen YT,  Zou J. (2023+) GenePT: A Simple But Hard-to-Beat Foundation Model for 
 2. [gene_embeddings_examples.ipynb](./gene_embeddings_examples.ipynb) provides example code to embed the extracted descriptions in 1 using GPT-3.5 embeddings. Note that this requires a valid registration of the OpenAI API (see instructions and pricing details at https://openai.com/blog/openai-api). 
 3. [gene_level_task_table_1.ipynb](./gene_level_task_table_1.ipynb) reproduces the gene level tasks for GenePT embeddings in Table 1 of the paper.
 4. [gene_level_task_figure_2.ipynb](./gene_level_task_figure_2.ipynb) provides the necessary data and output for the gene level tasks described in Figure 2 of our paper.
+5. [aorta_data_analysis.ipynb](./aorta_data_analysis.ipynb) provides example code to create your foundation-model cell embeddings in <20 lines of code and demonstrates the batch effect removal + biology preservation (Figure 4 results of the paper). 
 
 ### Datasets used in GenePT
 1. For the gene-level tasks, we make use of the following datasets:
