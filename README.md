@@ -29,7 +29,7 @@ Please file an [issue](https://github.com/yiqunchen/GenePT/issues) if you have a
 
 If you use `GenePT` for your analysis, please cite our manuscript:
 
-Chen YT,  Zou J. (2023+) GenePT: A Simple But Hard-to-Beat Foundation Model for Genes and Cells Built From ChatGPT. bioRxiv preprint.
+Chen YT,  Zou J. (2023+) GenePT: A Simple But Hard-to-Beat Foundation Model for Genes and Cells Built From ChatGPT. bioRxiv preprint: https://www.biorxiv.org/content/10.1101/2023.10.16.562533v1.
 
 
 ### Breakdown of analysis files:
@@ -43,11 +43,25 @@ Chen YT,  Zou J. (2023+) GenePT: A Simple But Hard-to-Beat Foundation Model for 
 	- Geneformer provides the datasets for gene-level tasks reported in Table 1 (https://huggingface.co/datasets/ctheodoris/Genecorpus-30M/tree/main/example_input_files/gene_classification)
 	- Gene-gene interaction network datasets were collected as part of the Gene2vec paper, available at https://github.com/jingcheng-du/Gene2vec/tree/master/predictionData.
 2. For the cell-level tasks, we make use of the following datasets:
-	- hPancreas, Myeloid, and Multiple Sclerosis 
-	- Cardiomyocyte data
-	- Aorta dataset
-
+	- hPancreas, Myeloid, and Multiple Sclerosis (processed and distributed by Cui et al. (2023+))
+		- Multiple Sclerosis (M.S.) dataset: [link](https://drive.google.com/drive/folders/1Qd42YNabzyr2pWt9xoY4cVMTAxsNBt4v?usp=sharing).
+		- Myeloid (Mye.) dataset: [link](https://drive.google.com/drive/folders/1VbpApQufZq8efFGakW3y8QDDpY9MBoDS?usp=drive_link).
+		- hPancreas dataset: [link](https://drive.google.com/drive/folders/1s9XjcSiPC-FYV3VeHrEa7SeZetrthQVV?usp=drive_link).
+	- Cardiomyocyte dataset: 
+		- Original data can be downloaded [here](https://singlecell.broadinstitute.org/single_cell/study/SCP1303/single-nuclei-profiling-of-human-dilated-and-hypertrophic-cardiomyopathy).
+		- We created a random 10% subset of the original dataset for our cell-level analysis, available at [this google drive folder](https://drive.google.com/drive/folders/1LgFvJqWNq9BqHbuxB2tYf62kXs9KqL4t?usp=share_link).
+	- Aorta dataset:
+		- Original data has been deposited [here](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE155468), and we used the additional cell type annotation provided by the authors on [GitHub](https://github.com/LI-Yan-Ming/Circulation.-2020-142-1374-1388/blob/main/meta_addsubcluster_cellcycle.csv).
+		- We created a 20% random subset of the original dataset ([link](https://drive.google.com/drive/folders/1LgFvJqWNq9BqHbuxB2tYf62kXs9KqL4t?usp=share_link)).
 
 ![](./figs/Presentation3.png)
+
+### References:
+1. Chaffin, M. et al. Single-nucleus profiling of human dilated and hypertrophic cardiomyopathy. Nature 608, 174–180 (2022).
+2. Chen YT,  Zou J. (2023+) GenePT: A Simple But Hard-to-Beat Foundation Model for Genes and Cells Built From ChatGPT. bioRxiv preprint: https://www.biorxiv.org/content/10.1101/2023.10.16.562533v1.
+3. Cui, H., et al. (2023). scGPT: Towards building a foundation model for single-cell multi-omics using generative AI. bioRxiv, 2023-04.
+4. Li, Y. et al. Single-cell transcriptome analysis reveals dynamic cell populations and differential gene expression patterns in control and aneurysmal human aortic tissue. Circulation 142, 1374–1388 (2020).
+
+
 
 
