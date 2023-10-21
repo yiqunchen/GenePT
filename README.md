@@ -57,6 +57,7 @@ Chen YT,  Zou J. (2023+) GenePT: A Simple But Hard-to-Beat Foundation Model for 
 	- Aorta dataset:
 		- Original data has been deposited [here](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE155468), and we used the additional cell type annotation provided by the authors on [GitHub](https://github.com/LI-Yan-Ming/Circulation.-2020-142-1374-1388/blob/main/meta_addsubcluster_cellcycle.csv).
 		- We created a 20% random subset of the original dataset ([link](https://drive.google.com/drive/folders/1LgFvJqWNq9BqHbuxB2tYf62kXs9KqL4t?usp=share_link)).
+3. The initial list of genes are curated from [vocab.json](https://drive.google.com/drive/folders/1oWh_-ZRdhtoGQ2Fw24HP41FgLoomVo-y) (provided by scGPT authors) and [token_dictionary.pkl](https://huggingface.co/ctheodoris/Geneformer/blob/main/geneformer/token_dictionary.pkl).
 
 ![](./figs/Presentation3.png)
 
