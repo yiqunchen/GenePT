@@ -13,6 +13,9 @@ The analysis scripts used to generate GenePT data and to reproduce the analysis 
 We also provide the following list of readily-available datasets that might be useful for a broader range of applications:
 1. Extracted summary texts scraped from the NCBI page for each gene.
 2. Pre-computed GPT-3.5 embeddings (`text-embedding-ada-002`) for each gene.
+These data are deposited at [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10030426.svg)](https://doi.org/10.5281/zenodo.10030426).
+
+
 
 ### Tutorials and Use
 
